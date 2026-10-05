@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Синий EMO: смотрит по сторонам и моргает -->
-<img src="emo.gif" width="240" alt="EMO bot" />
+<img src="emo.gif" width="440" alt="EMO bot" />
 
 # Hi, I'm compotik2 🤖
 
