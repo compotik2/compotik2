@@ -1,51 +1,7 @@
 <div align="center">
 
-<!-- Анимированный EMO в синем стиле -->
-<svg width="220" height="200" viewBox="0 0 220 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- тень -->
-  <ellipse cx="110" cy="182" rx="70" ry="10" fill="#1e3a8a" opacity="0.35">
-    <animate attributeName="rx" values="70;60;70" dur="2s" repeatCount="indefinite"/>
-  </ellipse>
-  <!-- скейт-платформа -->
-  <rect x="30" y="160" width="160" height="16" rx="8" fill="#1e293b" stroke="#3b82f6" stroke-width="2"/>
-  <rect x="30" y="160" width="160" height="6" rx="3" fill="#3b82f6" opacity="0.5"/>
-  <!-- тело: покачивание -->
-  <g>
-    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -8; 0 0" dur="2s" repeatCount="indefinite"/>
-    <!-- ножки -->
-    <rect x="80" y="125" width="18" height="38" rx="8" fill="#334155" stroke="#3b82f6" stroke-width="2"/>
-    <rect x="122" y="125" width="18" height="38" rx="8" fill="#334155" stroke="#3b82f6" stroke-width="2"/>
-    <!-- голова -->
-    <rect x="55" y="45" width="110" height="90" rx="28" fill="#0f172a" stroke="#3b82f6" stroke-width="3"/>
-    <!-- экран -->
-    <rect x="68" y="60" width="84" height="60" rx="18" fill="#020617"/>
-    <!-- глаза: мигание -->
-    <g fill="#22d3ee">
-      <rect x="82" y="82" width="20" height="24" rx="7" filter="url(#glow)">
-        <animate attributeName="height" values="24;3;24" dur="3s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="82;92;82" dur="3s" repeatCount="indefinite"/>
-      </rect>
-      <rect x="118" y="82" width="20" height="24" rx="7" filter="url(#glow)">
-        <animate attributeName="height" values="24;3;24" dur="3s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="82;92;82" dur="3s" repeatCount="indefinite"/>
-      </rect>
-    </g>
-    <!-- наушники -->
-    <path d="M55 80 C55 30 165 30 165 80" stroke="#3b82f6" stroke-width="7" stroke-linecap="round"/>
-    <rect x="45" y="70" width="16" height="34" rx="8" fill="#1e40af" stroke="#22d3ee" stroke-width="2"/>
-    <rect x="159" y="70" width="16" height="34" rx="8" fill="#1e40af" stroke="#22d3ee" stroke-width="2"/>
-    <!-- блик -->
-    <circle cx="90" cy="55" r="3" fill="#22d3ee" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.5s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-  <defs>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-  </defs>
-</svg>
+<!-- Синий EMO: смотрит по сторонам и моргает -->
+<img src="emo.gif" width="240" alt="EMO bot" />
 
 # Hi, I'm compotik2 🤖
 
